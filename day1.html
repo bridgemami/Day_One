@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 1</title>
+ <style>
+     @keyframes ones {
+         0% {color:blue;}
+         20% {color: green;}
+         40% {color:yellow;}
+         60% {color: orange;}
+         80% {color:red;}
+         100% {color:purple;}
+        }
+        @keyframes twos {
+         0% {color:purple;}
+         20% {color: red;}
+         40% {color:orange;}
+         60% {color: yellow;}
+         80% {color:green;}
+         100% {color:blue;}
+        }
+        #one {
+            animation-name: ones;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+     #two {animation-name: twos;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;}
+
+ </style>
+</head>
+<body>
+    <h1 id="one">Hello World!</h1>
+    <h2 id="two">Welcome to Day 1</h2>
+</body>
+</html>
+
